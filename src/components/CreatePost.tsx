@@ -33,11 +33,11 @@ function CreatePost() {
         setImageUrl("");
         setShowImageUpload(false);
 
-        toast.success("Post created successfully");
+        toast.success("Poste crée avec succès");
       }
     } catch (error) {
       console.error("Failed to create post:", error);
-      toast.error("Failed to create post");
+      toast.error("Erreur de création du code");
     } finally {
       setIsPosting(false);
     }
